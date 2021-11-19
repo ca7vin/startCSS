@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   outline: 0;
-  font-family: 'M PLUS 1', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
 
 /* navbar start */
@@ -17,6 +18,11 @@ h1{
     font-weight: bold;
     font-size: 44px;
     letter-spacing: 2px;
+}
+
+h5{
+    color: white;
+    font-size: 10px;
 }
 
 a{
@@ -172,6 +178,7 @@ a{
 .about-col p{
     text-align: left;
     color: white;
+    line-height: 30px;
 }
 /* about end */
 /* contact start */
@@ -237,4 +244,66 @@ a{
 .contact-btn button>a{
     color: white;
     font-weight: bold;
+}
+/* contact end */
+/* footer start */
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-row:nth-of-type(2){
+    background-color:rgb(40, 39, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.footer-row:first-of-type{
+    background-color:rgb(67, 66, 88);
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.footer-col-titre h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer-text{
+    text-align: center;
+    line-height: 25px;
+    padding: 0px 150px;
+    margin-bottom: 20px;
+}
+
+
+.footer-text p{
+    color: white;
+}
+
+.footer-text a{
+    color: turquoise;
+}
+
+.footer-rs-icons a{
+    color: white;
+}
+
+.footer-rs-icons a>i{
+    border: white 2px solid;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
 }

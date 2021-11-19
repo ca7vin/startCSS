@@ -14,7 +14,7 @@ header{
 h1{
     color: white;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 44px;
     letter-spacing: 2px;
 }
@@ -45,7 +45,7 @@ a{
 .navbar-titre span{
     color: white;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-weight: bold;
     letter-spacing: 2px;
     font-size: 16px;
 }
@@ -62,7 +62,7 @@ a{
     margin-right: 10px;
     color: white;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 10px;
     letter-spacing: 1px;
 }
@@ -172,4 +172,69 @@ a{
 .about-col p{
     text-align: left;
     color: white;
+}
+/* about end */
+/* contact start */
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 270px;
+    margin-bottom: 100px;
+}
+
+.contact-titre{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.contact-titre h2{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 600;
+    color:rgb(40, 39, 53);
+}
+
+.contact-form{
+    display: flex;
+}
+
+.contact-form form{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form form>input{
+    margin: 20px 0px;
+    width: 100%;
+    border: none;
+    box-shadow: 0px -1px 2px gray ;
+}
+
+.contact-form form>label{
+    font-size: 16px;
+    color:grey ;
+    letter-spacing: 1px;
+}
+
+.contact-btn{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+
+}
+
+.contact-btn button{
+    padding: 15px 20px;
+    border: none;
+    background-color: rgb(221, 68, 68);
+    border-radius: 10%;
+}
+
+.contact-btn button>a{
+    color: white;
+    font-weight: bold;
 }

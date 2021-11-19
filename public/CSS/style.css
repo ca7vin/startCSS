@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+/* navbar start */
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 44px;
+    letter-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color:rgb(40, 39, 53);
+    display: flex;
+    height: 70px;
+}
+
+.navbar-menu{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-titre{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-titre span{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.navbar-menu ul{
+    display: flex;
+    flex: 1;
+    margin-left: 100px;
+}
+
+.navbar-menu ul a li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+/* nav end */
+/* banner start */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 68, 68);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.banner-img{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.banner-img img{
+    width: 150px;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-text span{
+    color: white;
+    margin-top: 10px;
+}
+/* banner end */
+/* portfolio start */
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 250px;
+}
+
+.portfolio-titre{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.portfolio-titre h2{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 600;
+    color:rgb(40, 39, 53);
+}
+
+.portfolio-row{
+    display: flex;
+}
+
+.portfolio-col{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0px 20px;
+}
+
+.portfolio-col img{
+    width: 100%;
+    border-radius: 5%;
+    margin: 20px;
+}

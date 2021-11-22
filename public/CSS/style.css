@@ -307,3 +307,114 @@ footer{
     padding: 10px;
     border-radius: 50%;
 }
+
+/* MEDIA QUERIES TABLETTE */
+@media only screen and (max-width:768px){
+    .navbar-titre span{
+        font-size: 14px;
+    }
+    .banner-text h1{
+        font-size: 24px;
+    }
+    .baseline{
+        font-size: 12px;
+    }
+    .portfolio-titre{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .portfolio-titre h2{
+        font-size: 18px;
+    }
+    .portfolio{
+        margin: 20px 20px;
+    }
+    .portfolio-col{
+        margin: 0;
+        align-items: center;
+    }
+    .portfolio-col img{
+        margin: 10px;
+        width: 90%;
+    }
+    .about{
+        padding: 20px 0px;
+    }
+    .about-row{
+        margin: 0;
+        flex-direction: column;
+    }
+    .about-col:first-of-type{
+        margin-bottom: 20px;
+    }
+    .about-col p{
+        font-size: 12px;
+    }
+    .about-titre{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .about-titre h2{
+        font-size: 18px;
+    }
+    .contact{
+        margin: 20px 20px;
+    }
+    .contact-titre{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .contact-titre h2{
+        font-size: 18px;
+    }
+    .contact-form form label{
+        font-size: 12px;
+    }
+    .contact-form form textarea{
+        margin: 20px 0px;
+    }
+    .contact-btn{
+        justify-content: center;
+    }
+    .contact-btn button{
+        width: 100%;
+        border-radius: 0%;
+    }
+    .footer-row{
+        flex-direction: column;
+    }
+    .footer-text{
+        padding: 20px 0px;
+    }
+    footer h3{
+        font-size: 14px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+}
+
+/* MEDIA  QUERIES PHONE */
+@media only screen and (max-width: 576px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar-menu ul{
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-row{
+        padding: 10px;
+    }
+    .footer-col{
+        padding: 10px 0px
+    }
+    .footer-col-titre h3{
+        margin: 0;
+    }
+    .footer-text{
+        padding: 0;
+        margin: 0;
+    }
+}
